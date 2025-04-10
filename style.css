@@ -194,8 +194,52 @@ footer p.quote {
     line-height: 1.6;
 }
 
-code {
-    font-size: 26px;
-    border: outset;
-    background: #ffff3d;
+
+
+
+.usdt-box {
+  background: #f7f7f7;
+  border-left: 6px solid #00a86b;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.usdt-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.usdt-box h4 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.usdt-box code {
+  display: inline-block;
+  background-color: #ffffcc;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #222;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  word-break: break-all;
+  direction: ltr;
+}
+
+@media (max-width: 600px) {
+  .usdt-box {
+    padding: 15px;
+  }
+
+  .usdt-box code {
+    font-size: 1rem;
+  }
 }
