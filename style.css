@@ -35,15 +35,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.lang-btn {
-    background: #fff;
-    color: #1d3557;
-    padding: 0.3rem 0.8rem;
-    border: none;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 .hero {
     background: #f0f4f8;
