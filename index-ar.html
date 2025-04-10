@@ -26,9 +26,34 @@
       window.location.href = 'index.html';
     }
   </script>
+  <style>
+    .lang-switch-btn {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 9999;
+      padding: 6px 12px;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      cursor: pointer;
+    }
+    html[lang="en"] .lang-switch-btn {
+      left: 10px;
+      right: auto;
+    }
+  </style>
 </head>
 <body>
-  <button onclick="switchLanguage()" style="position: fixed; top: 10px; left: 10px; z-index: 9999; padding: 6px 12px; font-weight: bold; border-radius: 5px; border: none; background: #2563eb; color: white; cursor: pointer;">English / عربي</button>
+  <button class="lang-switch-btn" onclick="switchLanguage()">English / عربي</button>
+  <!-- باقي محتوى الصفحة كما في النسخة المترجمة مسبقًا -->
+
+
+
+
+
   <header>
     <h1>SmartEDU</h1>
     <nav>
